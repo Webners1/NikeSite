@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.shopContain{
+ background: rgb(171,0,92);
+background: linear-gradient(90deg, rgba(171,0,92,1) 0%, rgba(113,0,164,1) 57%, rgba(196,0,255,1) 100%);
+margin-bottom: 30px;
+}
+.nav{
+background: rgb(250,250,250);
+background: linear-gradient(90deg, rgba(250,250,250,0.8183648459383753) 0%, rgba(120,0,39,0.7483368347338936) 0%, rgba(252,69,103,0.8127626050420168) 100%);
+}
+.shop{
+ background: rgb(221,0,0);
+background: radial-gradient(circle, rgba(221,0,0,0.4990371148459384) 0%, rgba(189,0,115,0.9192051820728291) 51%, rgba(99,0,19,0.8127626050420168) 100%);
+}
+.shop:hover{
+ background: rgb(0,201,186);
+background: radial-gradient(circle, rgba(0,201,186,0.8183648459383753) 0%, rgba(205,0,218,1) 100%);
+}
+.mainContainer{
+background: rgb(250,250,250);
+background: linear-gradient(90deg, rgba(250,250,250,0.8183648459383753) 0%, rgba(120,0,39,0.7483368347338936) 0%, rgba(252,69,103,0.8127626050420168) 100%);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
